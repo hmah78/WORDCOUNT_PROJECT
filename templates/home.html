@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Assalam u Alikum World</h1>
+    <form action="{%url 'count'%}">
+        <h4>Add your words:</h4>
+        <br>
+        <textarea name="textarea" id="one" cols="50" rows="50"></textarea>
+        <input type="submit" value="Count!">
+    </form>
+    <a href="{% url 'about' %}">About US</a>
+</body>
+</html>
